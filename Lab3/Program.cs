@@ -1,7 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 
-namespace opam_lab2
+
+namespace opam_lab3
 {
     class Program
     {
@@ -27,7 +27,7 @@ namespace opam_lab2
 
         public static void Main(string[] args)
         {
-            // Система входу
+            
             int attempts = 3;
             do
             {
@@ -46,7 +46,7 @@ namespace opam_lab2
                 Console.ReadKey();
             } while (true);
 
-            // Ініціалізація даних
+            
             string[] productNames = { "Нурофен", "Йод", "Едем", "Аспірин", "Вітамін С" };
             double[] prices = { 120, 40, 150, 60, 200 };
             int[] quantities = { 50, 100, 30, 80, 40 };
